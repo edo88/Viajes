@@ -1,19 +1,56 @@
-.my-nav{
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    }
-    
-    .carousel-item {
-      height: 100vh;
-      background: no-repeat center center scroll;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-    
-    body{
-      background-color: black;
-    }
-    
+body {
+  background-color: black;
+  margin: 0%;
+
+}
+
+.my-nav {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  color: white;
+}
+
+.my-nav .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.carousel-item {
+  height: 100vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+textarea {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+p {
+  color: aliceblue;
+}
+
+footer {
+  background-color: rgb(49, 167, 177, 255);
+}
+
+.card-body {
+  background-color: cyan;
+}
+
+.row {
+  margin-bottom: 0%;
+}
